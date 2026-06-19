@@ -33,7 +33,7 @@ structure with flexibility, and the least intrusive intervention.
 
 ## 4. Service-Learning Connection
 
-The project draws on a virtual math tutoring placement with an 8th/9th grade student. Sessions
+The project draws on a virtual math tutoring placement with a 10th grade student. Sessions
 covered homework review, geometry (angles and parallel lines, transformations, congruence and
 similarity, the triangle inequality), right-triangle trigonometry, geometry vocabulary such as
 *theta* and *apothem*, and EOG/EOC-style test preparation. To protect privacy, the student is not
