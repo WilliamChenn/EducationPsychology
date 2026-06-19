@@ -67,24 +67,24 @@ runs identically locally and on GitHub Pages.
 
 ## 8. AI Use Attestation
 
-I attest that I did not use AI to create this project in its entirety. I used AI assistance as a
-planning, drafting, and coding reference, and I reviewed, edited, and approved the final content. I
-documented AI support as required and take responsibility for the final project.
-
-This website uses my own service-learning examples and course understanding. AI assistance was used
-to help organize the website structure and support code development, but the final project was
-reviewed and revised by me.
+I attest that I did not use AI to create this project in its entirety. I used AI assistance to refine
+text portions of the project and used AI assistance to code the website. AI assistance helped me
+organize the website structure and support code development. The AI tools I used were ChatGPT and
+Claude (Anthropic, 2026; OpenAI, 2026).
 
 ## References
 
+- Anthropic. (2026). *Claude* [Large language model]. https://claude.ai
 - Bandura, A. (1977). *Social learning theory*. Prentice Hall.
 - Deci, E. L., Koestner, R., & Ryan, R. M. (1999). A meta-analytic review of experiments examining
   the effects of extrinsic rewards on intrinsic motivation. *Psychological Bulletin, 125*(6),
   627–668.
 - Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research,
   77*(1), 81–112.
+- OpenAI. (2026). *ChatGPT* [Large language model]. https://chat.openai.com
 - Schunk, D. H. (1991). Self-efficacy and academic motivation. *Educational Psychologist, 26*(3–4),
   207–231.
-- Slavin, R. E. (2018). *Educational psychology: Theory and practice* (12th ed.). Pearson.
+- Slavin, R. E., & Madden, N. A. (2026). *Educational psychology: Theory and practice* (14th ed.).
+  Pearson.
 - Weinstein, R. S. (2002). *Reaching higher: The power of expectations in schooling*. Harvard
   University Press.

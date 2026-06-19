@@ -372,6 +372,15 @@ cite { font-style: normal; }
   align-items: center;
 }
 
+/* Single-column hero (no side cards) */
+.hero-solo {
+  position: relative;
+  z-index: 2;
+}
+.hero-solo .hero-lead {
+  max-width: 68ch;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
