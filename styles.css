@@ -1109,6 +1109,69 @@ cite { font-style: normal; }
 .research-card h3 { font-size: 1.08rem; font-weight: 600; margin: 0 0 0.7rem; letter-spacing: -0.02em; }
 .research-key, .research-link { font-size: 0.92rem; margin-bottom: 0.6rem; color: #2c2c33; }
 .research-link { color: var(--text-muted); margin-bottom: 0; }
+.research-quote {
+  font-size: 0.9rem;
+  color: var(--text);
+  background: var(--bg-elevated);
+  border-left: 2px solid var(--g-purple);
+  border-radius: 0 8px 8px 0;
+  padding: 0.5rem 0.7rem;
+  margin: 0 0 0.6rem;
+}
+.research-quote .research-cite { display: block; margin-top: 0.25rem; font-size: 0.8rem; color: var(--text-secondary); }
+.research-concept { font-size: 0.9rem; margin: 0 0 0.6rem; color: #2c2c33; }
+.research-concept strong { color: var(--text); font-weight: 600; }
+
+/* ---------- Quote cards (research integrated into sections) ---------- */
+.quote-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--g-purple);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.1rem 1.3rem;
+  margin: 1.6rem 0;
+  max-width: 74ch;
+}
+.quote-label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.66rem;
+  font-weight: 700;
+  color: var(--label-purple);
+  margin: 0 0 0.5rem;
+}
+.quote-text {
+  font-size: 1.04rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  margin: 0 0 0.35rem;
+}
+.quote-citation {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  margin: 0 0 0.75rem;
+}
+.quote-explanation,
+.quote-application {
+  font-size: 0.93rem;
+  color: #2c2c33;
+  margin: 0 0 0.45rem;
+}
+.quote-application { margin-bottom: 0; }
+.quote-explanation strong,
+.quote-application strong { color: var(--text); font-weight: 600; }
+
+/* compact variant inside case cards */
+.quote-card--mini {
+  margin: 1.1rem 0 0;
+  padding: 0.85rem 1rem;
+  max-width: none;
+}
+.quote-card--mini .quote-text { font-size: 0.94rem; margin-bottom: 0.3rem; }
+.quote-card--mini .quote-citation { font-size: 0.78rem; margin-bottom: 0.45rem; }
+.quote-card--mini .quote-application { font-size: 0.88rem; }
 
 /* ---------- Privacy note ---------- */
 .privacy-note {

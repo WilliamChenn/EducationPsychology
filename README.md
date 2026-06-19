@@ -76,15 +76,17 @@ Claude (Anthropic, 2026; OpenAI, 2026).
 
 - Anthropic. (2026). *Claude* [Large language model]. https://claude.ai
 - Bandura, A. (1977). *Social learning theory*. Prentice Hall.
-- Deci, E. L., Koestner, R., & Ryan, R. M. (1999). A meta-analytic review of experiments examining
-  the effects of extrinsic rewards on intrinsic motivation. *Psychological Bulletin, 125*(6),
-  627–668.
 - Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research,
-  77*(1), 81–112.
+  77*(1), 81–112. https://doi.org/10.3102/003465430298487
+- Jussim, L., & Harber, K. D. (2005). Teacher expectations and self-fulfilling prophecies: Knowns
+  and unknowns, resolved and unresolved controversies. *Personality and Social Psychology Review,
+  9*(2), 131–155. https://doi.org/10.1207/s15327957pspr0902_3
 - OpenAI. (2026). *ChatGPT* [Large language model]. https://chat.openai.com
-- Schunk, D. H. (1991). Self-efficacy and academic motivation. *Educational Psychologist, 26*(3–4),
-  207–231.
+- Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic
+  motivation, social development, and well-being. *American Psychologist, 55*(1), 68–78.
+  https://doi.org/10.1037/0003-066X.55.1.68
+- Schunk, D. H., & Zimmerman, B. J. (2013). Self-regulation and learning. In W. M. Reynolds, G. E.
+  Miller, & I. B. Weiner (Eds.), *Handbook of psychology: Educational psychology* (Vol. 7, 2nd ed.,
+  pp. 45–69). Wiley.
 - Slavin, R. E., & Madden, N. A. (2026). *Educational psychology: Theory and practice* (14th ed.).
   Pearson.
-- Weinstein, R. S. (2002). *Reaching higher: The power of expectations in schooling*. Harvard
-  University Press.
