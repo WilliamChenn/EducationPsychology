@@ -62,11 +62,10 @@
   --shadow-lg: 0 20px 48px rgba(23,23,23,0.12);
 
   --container: 1180px;
-  --header-h: 64px;
+  --header-h: 0px;
 
   --font-sans: "Instrument Sans", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-display: "Inter", "Instrument Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-serif: "Instrument Serif", Georgia, "Times New Roman", serif;
 
   --ease: cubic-bezier(0.33, 1, 0.68, 1);
 }
@@ -393,12 +392,12 @@ cite { font-style: normal; }
 }
 
 .hero-subtitle {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: clamp(1.15rem, 2.1vw, 1.5rem);
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
   font-weight: 400;
   color: var(--text-secondary);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   margin-bottom: 1.3rem;
 }
 
@@ -491,7 +490,7 @@ cite { font-style: normal; }
 .prose--wide { max-width: 78ch; }
 .prose p { color: #2c2c33; }
 .cite { color: var(--text-secondary); font-size: 0.93em; }
-.inline-quote { font-family: var(--font-serif); font-style: italic; color: var(--text); font-size: 1.05em; }
+.inline-quote { font-style: normal; color: var(--text); font-weight: 500; }
 
 /* ---------- Two column ---------- */
 .two-col {
@@ -533,12 +532,13 @@ cite { font-style: normal; }
 .callout--synthesis .callout-label { color: var(--label-purple); }
 .callout p {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   font-weight: 400;
   color: var(--text);
-  font-family: var(--font-serif);
-  font-style: italic;
-  line-height: 1.5;
+  font-family: var(--font-sans);
+  font-style: normal;
+  letter-spacing: -0.01em;
+  line-height: 1.55;
 }
 
 /* ---------- Panels ---------- */
@@ -659,13 +659,13 @@ cite { font-style: normal; }
 }
 .quote p {
   margin: 0 0 0.5rem;
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 1.35rem;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--text);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 .quote footer { font-size: 0.84rem; color: var(--text-secondary); font-style: normal; font-family: var(--font-sans); }
 
@@ -1165,8 +1165,8 @@ cite { font-style: normal; }
 .footer-meta {
   margin: 0;
   font-size: 0.84rem;
-  font-family: var(--font-serif);
-  font-style: italic;
+  font-family: var(--font-sans);
+  font-style: normal;
   color: var(--text-secondary);
 }
 
