@@ -454,12 +454,24 @@ cite { font-style: normal; }
   border-bottom: 1px solid var(--border-subtle);
 }
 .section--cream { background: var(--bg-soft); }
-/* alternating warm wash on the cream sections, very subtle */
-#motivation { background: linear-gradient(180deg, #ffffff 0%, var(--bg-warm) 100%); }
+/* Soft tinted washes so white cards never sit on a stark-white field */
+#concepts {
+  background:
+    radial-gradient(ellipse 55% 48% at 8% 8%, rgba(248, 175, 130, 0.16), transparent 60%),
+    radial-gradient(ellipse 52% 48% at 94% 10%, rgba(244, 150, 180, 0.14), transparent 60%),
+    radial-gradient(ellipse 60% 55% at 55% 102%, rgba(196, 132, 252, 0.13), transparent 60%),
+    var(--bg-warm);
+}
+#motivation { background: linear-gradient(180deg, #fffdfb 0%, var(--bg-warm) 100%); }
+#behavioral { background: linear-gradient(180deg, var(--bg-soft) 0%, var(--bg-lav) 100%); }
 #environment { background: linear-gradient(180deg, var(--bg-warm) 0%, var(--bg-lav) 100%); }
-#reflection { background: linear-gradient(180deg, var(--bg-lav) 0%, #ffffff 100%); }
+#service-learning { background: linear-gradient(180deg, var(--bg-warm) 0%, var(--bg-soft) 100%); }
 #interactive { background: var(--bg-soft); }
+#research { background: linear-gradient(180deg, var(--bg-soft) 0%, var(--bg-lav) 100%); }
+#reflection { background: linear-gradient(180deg, var(--bg-lav) 0%, var(--bg-warm) 100%); }
+#rubric { background: linear-gradient(180deg, var(--bg-warm) 0%, var(--bg-soft) 100%); }
 #ai-accessibility { background: var(--bg-soft); }
+#references { background: linear-gradient(180deg, var(--bg-soft) 0%, var(--bg-lav) 100%); }
 
 .section-eyebrow {
   text-transform: uppercase;
@@ -612,6 +624,26 @@ cite { font-style: normal; }
   padding: 0.26rem 0.62rem;
   border-radius: 999px;
 }
+
+/* Concept cards: a gradient top accent + colored chip per chapter group */
+.concept-card { position: relative; overflow: hidden; }
+.concept-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--g-orange), var(--g-pink));
+}
+.concept-card:nth-child(4)::before,
+.concept-card:nth-child(5)::before { background: linear-gradient(90deg, var(--g-pink), var(--g-purple)); }
+.concept-card:nth-child(6)::before { background: linear-gradient(90deg, var(--g-purple), var(--g-blue)); }
+
+.concept-card .chip { background: var(--tint-orange); color: var(--label-warm); border-color: #f3ddca; }
+.concept-card:nth-child(4) .chip,
+.concept-card:nth-child(5) .chip { background: var(--tint-purple); color: var(--label-purple); border-color: #e8dcf6; }
+.concept-card:nth-child(6) .chip { background: var(--tint-blue); color: var(--label-blue); border-color: #d9e4f8; }
 
 /* ---------- Concept map ---------- */
 .concept-map { margin: 1.6rem auto 0; max-width: 900px; text-align: center; }
